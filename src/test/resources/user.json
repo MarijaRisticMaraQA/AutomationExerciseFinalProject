@@ -1,0 +1,46 @@
+[
+  {
+    "email": "",
+    "password": ""
+  },
+  {
+    "email": "user.user",
+    "password": ""
+  },
+  {
+    "email": "USER.USER@USER.COM",
+    "password": ""
+  },
+  {
+    "email": ";@user.com",
+    "password": ""
+  },
+  {
+    "email": "user@.com",
+    "password": ""
+  },
+  {
+    "email": "1@1.1",
+    "password": ""
+  },
+  {
+    "email": "@user@user",
+    "password": ""
+  },
+  {
+    "email": "user.user@user.com",
+    "password": ""
+  },
+  {
+    "email": "user.user@user.com",
+    "password": "1"
+  },
+  {
+    "email": "user.user@user.com",
+    "password": "a"
+  },
+  {
+    "email": "user.user@user.com",
+    "password": "password"
+  }
+]
