@@ -1,8 +1,11 @@
 package tests;
 
 import dataproviders.LoginDataProvider;
+import listeners.RetryAnalyzer;
+import listeners.TestListener;
 import model.LoginUserModel;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.RegisterPage;
@@ -13,18 +16,20 @@ import java.util.List;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+@Listeners(TestListener.class)
 public class LoginTest extends BaseTest{
 
 	LoginPage loginPage;
 	RegisterPage registerPage;
-	@BeforeMethod
-	public void setLoginPage() {
+	@BeforeMethod(alwaysRun = true)
+	public void setLogin() {
 
-		loginPage = new LoginPage(driver);
-		registerPage = new RegisterPage(driver);
+		loginPage = new LoginPage(driver.get());
+		registerPage = new RegisterPage(driver.get());
 	}
 
-	@Test(description = "Login user and then logout - positive test")
+	@Test(retryAnalyzer = RetryAnalyzer.class,
+			description = "Login user and then logout - positive test")
 	public void loginUserTest() {
 
 		registerPage.registerUser();

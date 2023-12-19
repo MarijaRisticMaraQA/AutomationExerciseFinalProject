@@ -23,7 +23,6 @@ public class CartPage extends BasePage {
 	private By singlePrice = By.cssSelector(".cart_price p");
 	private By quantity = By.cssSelector(".disabled");
 	private By productInCart = By.xpath("//tbody//tr");
-	private By totalPricesOfProducts = By.cssSelector(".cart_total");
 	private By totalAmount = By.xpath("//tbody//tr[3]//td[4]");
 	private By commentField = By.cssSelector(".form-control");
 	private By paymentButton = By.cssSelector("a[href*='payment']");
@@ -55,7 +54,7 @@ public class CartPage extends BasePage {
 		typeInput(cardNumberField, faker.finance().creditCard());
 		typeInput(cvcField, faker.number().digits(3));
 		typeInput(expirationMonthField, "01");
-		typeInput(expirationYearField, "1911");
+		typeInput(expirationYearField, "3000");
 		clickOnElement(payAndConfirmButton);
 
 		return this;

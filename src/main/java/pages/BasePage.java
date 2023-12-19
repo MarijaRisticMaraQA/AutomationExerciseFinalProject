@@ -9,8 +9,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Utils;
 
 import java.time.Duration;
 import java.util.List;
@@ -21,11 +23,12 @@ public class BasePage {
 	protected WebDriverWait wait;
 	Faker faker;
 	private static final Logger log = LogManager.getLogger(BasePage.class.getName());
+	private long waitTime = Long.parseLong(Utils.dotEnv().get("EXPLICIT_WAIT_TIME"));
 
 	public BasePage(WebDriver driver) {
 
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(waitTime));
 		faker = new Faker();
 	}
 
@@ -45,6 +48,17 @@ public class BasePage {
 		element.sendKeys(text);
 	}
 
+	protected void hoverAndClick(By locator, long wait) {
+
+		WebElement element = getElement(locator);
+		new Actions(driver)
+				.moveToElement(element)
+				.pause(wait)
+				.click()
+				.build()
+				.perform();
+	}
+
 	protected void clickOnElement(By locator) {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -55,6 +69,7 @@ public class BasePage {
 			js.executeScript("arguments[0].click()", getElement(locator));
 		} catch (StaleElementReferenceException s) {
 			s.printStackTrace();
+			hoverAndClick(locator, 0);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

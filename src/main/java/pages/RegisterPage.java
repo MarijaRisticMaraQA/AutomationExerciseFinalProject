@@ -1,9 +1,11 @@
 package pages;
 
+import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
+@Getter
 public class RegisterPage extends BasePage{
 
 	public RegisterPage(WebDriver driver) {
@@ -98,15 +100,5 @@ public class RegisterPage extends BasePage{
 	public boolean isUserRegistered() {
 
 		return matchesExpectedText(accountCreatedTitle, "ACCOUNT CREATED!");
-	}
-
-	public String getEmail() {
-
-		return email;
-	}
-
-	public String getPassword() {
-
-		return password;
 	}
 }

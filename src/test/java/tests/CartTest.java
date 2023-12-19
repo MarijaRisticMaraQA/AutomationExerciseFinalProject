@@ -1,22 +1,25 @@
 package tests;
 
+import listeners.TestListener;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.CartPage;
 import pages.RegisterPage;
 
 import static org.testng.Assert.assertTrue;
 
+@Listeners(TestListener.class)
 public class CartTest extends BaseTest{
 
 	CartPage cartPage;
 	RegisterPage registerPage;
 
-	@BeforeMethod
-	public void setUpCartPage() {
+	@BeforeMethod(alwaysRun = true)
+	public void setUpCart() {
 
-		cartPage = new CartPage(driver);
-		registerPage = new RegisterPage(driver);
+		cartPage = new CartPage(driver.get());
+		registerPage = new RegisterPage(driver.get());
 	}
 
 	@Test(description = "Add products to cart and finish the payment")

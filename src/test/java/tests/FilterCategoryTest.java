@@ -1,18 +1,21 @@
 package tests;
 
+import listeners.TestListener;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.FilterCategoryPage;
 
 import static org.testng.Assert.assertTrue;
 
+@Listeners(TestListener.class)
 public class FilterCategoryTest extends BaseTest{
 
 	FilterCategoryPage filterCategoryPage;
-	@BeforeMethod
-	public void setUpFilterPage() {
+	@BeforeMethod(alwaysRun = true)
+	public void setUpFilter() {
 
-		filterCategoryPage = new FilterCategoryPage(driver);
+		filterCategoryPage = new FilterCategoryPage(driver.get());
 	}
 
 	@Test(description = "Filter Women category products")

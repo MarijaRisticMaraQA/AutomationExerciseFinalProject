@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="4" data-provider-thread-count="2">
+    <listeners>
+        <listener class-name="listeners.TestListener"></listener>
+    </listeners>
+    <test name="Chrome test">
+        <classes>
+            <class name="tests.CartTest"/>
+            <class name="tests.ContactFormTest"/>
+            <class name="tests.FilterCategoryTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegisterTest"/>
+        </classes>
+    </test>
+    <test name="Firefox test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.CartTest"/>
+            <class name="tests.ContactFormTest"/>
+            <class name="tests.FilterCategoryTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegisterTest"/>
+        </classes>
+    </test>
+</suite>
