@@ -1,0 +1,3 @@
+2023-12-18 16:04:00.115 [main] INFO  listeners.TestListener - STARTING TEST: sendContactFormTest
+2023-12-18 16:04:03.076 [main] INFO  pages.BasePage - PASSED - Text found in element: Success! Your details have been submitted successfully. is matching with expected text: Success! Your details have been submitted successfully.
+2023-12-18 16:04:03.122 [main] INFO  listeners.TestListener - TEST METHOD: sendContactFormTest PASSED

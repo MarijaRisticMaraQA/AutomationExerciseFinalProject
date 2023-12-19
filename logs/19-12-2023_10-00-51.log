@@ -1,0 +1,53 @@
+2023-12-19 10:00:55.873 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:00:58.755 [main] INFO  listeners.TestListener - STARTING TEST: cartTest
+2023-12-19 10:01:10.601 [main] INFO  pages.BasePage - PASSED - Text found in element: Congratulations! Your order has been confirmed! is matching with expected text: Congratulations! Your order has been confirmed!
+2023-12-19 10:01:10.646 [main] INFO  listeners.TestListener - TEST METHOD: cartTest PASSED
+2023-12-19 10:01:14.089 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:01:18.397 [main] INFO  listeners.TestListener - STARTING TEST: sendContactFormTest
+2023-12-19 10:01:19.875 [main] INFO  pages.BasePage - PASSED - Text found in element: Success! Your details have been submitted successfully. is matching with expected text: Success! Your details have been submitted successfully.
+2023-12-19 10:01:19.875 [main] INFO  listeners.TestListener - TEST METHOD: sendContactFormTest PASSED
+2023-12-19 10:01:23.239 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:01:25.475 [main] INFO  listeners.TestListener - STARTING TEST: filterCategoryTest
+2023-12-19 10:01:29.823 [main] ERROR listeners.TestListener - TEST METHOD: filterCategoryTest FAILED
+2023-12-19 10:01:33.199 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:01:37.606 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:01:38.974 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:01:42.373 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:01:45.448 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:01:46.802 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:01:50.213 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:01:52.949 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:01:54.344 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:01:57.789 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:00.304 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:01.964 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:05.441 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:08.156 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:10.389 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:14.060 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:17.052 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:18.492 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:22.079 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:25.042 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:26.747 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:30.506 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:33.096 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:34.867 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:38.811 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:41.570 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:44.483 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:48.446 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:02:51.135 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:02:54.319 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:02:58.265 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:03:01.083 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 10:03:03.968 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 10:03:07.987 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:03:12.270 [main] INFO  listeners.TestListener - STARTING TEST: loginTestFromJsonNegative
+2023-12-19 10:03:29.334 [main] INFO  listeners.TestListener - TEST METHOD: loginTestFromJsonNegative PASSED
+2023-12-19 10:03:34.372 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:03:39.405 [main] INFO  listeners.TestListener - STARTING TEST: loginUserTest
+2023-12-19 10:03:43.113 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 10:03:46.142 [main] INFO  listeners.TestListener - STARTING TEST: registerTest
+2023-12-19 10:03:53.092 [main] INFO  pages.BasePage - PASSED - Text found in element: ACCOUNT CREATED! is matching with expected text: ACCOUNT CREATED!
+2023-12-19 10:03:53.093 [main] INFO  listeners.TestListener - TEST METHOD: registerTest PASSED

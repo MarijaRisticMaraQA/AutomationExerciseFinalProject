@@ -1,0 +1,27 @@
+2023-12-19 13:53:36.210 [TestNG-PoolService-8] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-2] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-4] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-3] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-9] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-7] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-6] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:36.210 [TestNG-PoolService-5] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:39.489 [TestNG-PoolService-6] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:39.489 [TestNG-PoolService-3] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:39.851 [TestNG-PoolService-8] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:40.685 [TestNG-PoolService-7] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:40.891 [TestNG-PoolService-4] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:40.897 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:41.277 [TestNG-PoolService-2] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:41.295 [TestNG-PoolService-9] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:41.324 [TestNG-PoolService-5] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:41.327 [TestNG-PoolService-1] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:41.678 [TestNG-PoolService-3] ERROR listeners.TestListener - TEST METHOD: loginTestDataProviderNegative FAILED
+2023-12-19 13:53:41.835 [TestNG-PoolService-2] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:42.066 [TestNG-PoolService-8] ERROR listeners.TestListener - TEST METHOD: loginTestDataProviderNegative FAILED
+2023-12-19 13:53:42.121 [TestNG-PoolService-7] ERROR listeners.TestListener - TEST METHOD: loginTestDataProviderNegative FAILED
+2023-12-19 13:53:42.760 [TestNG-PoolService-4] ERROR listeners.TestListener - TEST METHOD: loginTestDataProviderNegative FAILED
+2023-12-19 13:53:42.888 [TestNG-PoolService-0] ERROR listeners.TestListener - TEST METHOD: loginTestDataProviderNegative FAILED
+2023-12-19 13:53:44.532 [TestNG-PoolService-2] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative

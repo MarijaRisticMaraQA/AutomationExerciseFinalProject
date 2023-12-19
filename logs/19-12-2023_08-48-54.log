@@ -1,0 +1,4 @@
+2023-12-19 08:48:58.937 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 08:49:03.183 [main] INFO  listeners.TestListener - STARTING TEST: sendContactFormTest
+2023-12-19 08:49:06.468 [main] INFO  pages.BasePage - PASSED - Text found in element: Success! Your details have been submitted successfully. is matching with expected text: Success! Your details have been submitted successfully.
+2023-12-19 08:49:06.512 [main] INFO  listeners.TestListener - TEST METHOD: sendContactFormTest PASSED

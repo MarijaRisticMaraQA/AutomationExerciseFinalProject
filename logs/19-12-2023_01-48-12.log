@@ -1,0 +1,3 @@
+2023-12-19 13:48:13.803 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:48:16.600 [main] INFO  listeners.TestListener - STARTING TEST: filterCategoryTest
+2023-12-19 13:48:18.488 [main] INFO  listeners.TestListener - TEST METHOD: filterCategoryTest PASSED

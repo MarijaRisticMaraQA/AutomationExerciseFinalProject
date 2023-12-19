@@ -1,0 +1,4 @@
+2023-12-19 14:04:10.698 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 14:04:13.771 [main] INFO  listeners.TestListener - STARTING TEST: cartTest
+2023-12-19 14:04:27.848 [main] INFO  pages.BasePage - PASSED - Text found in element: Congratulations! Your order has been confirmed! is matching with expected text: Congratulations! Your order has been confirmed!
+2023-12-19 14:04:27.892 [main] INFO  listeners.TestListener - TEST METHOD: cartTest PASSED

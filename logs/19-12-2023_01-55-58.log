@@ -1,0 +1,54 @@
+2023-12-19 13:56:00.291 [TestNG-test=Chrome test-3] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:00.291 [TestNG-test=Chrome test-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:00.291 [TestNG-PoolService-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:00.291 [TestNG-test=Chrome test-2] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:00.295 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:03.538 [TestNG-test=Chrome test-1] INFO  listeners.TestListener - STARTING TEST: cartTest
+2023-12-19 13:56:03.682 [TestNG-test=Chrome test-3] INFO  listeners.TestListener - STARTING TEST: filterCategoryTest
+2023-12-19 13:56:03.741 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:05.023 [TestNG-test=Chrome test-2] INFO  listeners.TestListener - STARTING TEST: sendContactFormTest
+2023-12-19 13:56:05.113 [TestNG-PoolService-1] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:05.746 [TestNG-test=Chrome test-3] INFO  listeners.TestListener - TEST METHOD: filterCategoryTest PASSED
+2023-12-19 13:56:06.398 [TestNG-test=Chrome test-3] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:06.574 [TestNG-PoolService-0] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:06.742 [TestNG-PoolService-1] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:07.022 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:07.187 [TestNG-PoolService-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:07.200 [TestNG-test=Chrome test-2] INFO  pages.BasePage - PASSED - Text found in element: Success! Your details have been submitted successfully. is matching with expected text: Success! Your details have been submitted successfully.
+2023-12-19 13:56:07.201 [TestNG-test=Chrome test-2] INFO  listeners.TestListener - TEST METHOD: sendContactFormTest PASSED
+2023-12-19 13:56:09.067 [TestNG-test=Chrome test-3] INFO  listeners.TestListener - STARTING TEST: registerTest
+2023-12-19 13:56:09.426 [TestNG-PoolService-1] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:10.794 [TestNG-PoolService-1] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:11.159 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:11.374 [TestNG-PoolService-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:12.548 [TestNG-PoolService-0] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:13.126 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:13.442 [TestNG-test=Chrome test-3] INFO  pages.BasePage - PASSED - Text found in element: ACCOUNT CREATED! is matching with expected text: ACCOUNT CREATED!
+2023-12-19 13:56:13.443 [TestNG-test=Chrome test-3] INFO  listeners.TestListener - TEST METHOD: registerTest PASSED
+2023-12-19 13:56:14.165 [TestNG-PoolService-1] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:15.060 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:15.513 [TestNG-test=Chrome test-1] INFO  pages.BasePage - PASSED - Text found in element: Congratulations! Your order has been confirmed! is matching with expected text: Congratulations! Your order has been confirmed!
+2023-12-19 13:56:15.513 [TestNG-test=Chrome test-1] INFO  listeners.TestListener - TEST METHOD: cartTest PASSED
+2023-12-19 13:56:16.400 [TestNG-PoolService-1] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:16.568 [TestNG-PoolService-0] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:16.997 [TestNG-PoolService-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:17.084 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:19.953 [TestNG-PoolService-1] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:21.172 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:22.546 [TestNG-PoolService-1] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:22.719 [TestNG-PoolService-0] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:23.148 [TestNG-PoolService-1] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:23.241 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:26.150 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:27.398 [TestNG-PoolService-1] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:28.185 [TestNG-PoolService-0] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:28.812 [TestNG-PoolService-0] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:29.419 [TestNG-PoolService-1] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:31.734 [TestNG-PoolService-0] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:56:33.825 [TestNG-PoolService-0] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:56:34.489 [TestNG-test=Chrome test-4] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:38.798 [TestNG-test=Chrome test-4] INFO  listeners.TestListener - STARTING TEST: loginTestFromJsonNegative
+2023-12-19 13:56:50.516 [TestNG-test=Chrome test-4] INFO  listeners.TestListener - TEST METHOD: loginTestFromJsonNegative PASSED
+2023-12-19 13:56:51.177 [TestNG-test=Chrome test-4] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:56:54.085 [TestNG-test=Chrome test-4] INFO  listeners.TestListener - STARTING TEST: loginUserTest
+2023-12-19 13:57:05.890 [TestNG-test=Chrome test-4] INFO  listeners.TestListener - TEST METHOD: loginUserTest PASSED

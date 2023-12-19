@@ -1,0 +1,15 @@
+2023-12-19 13:52:47.626 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:52:50.550 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:52:52.001 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:52:52.664 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:52:57.035 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:52:58.607 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:52:59.174 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:01.848 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:03.205 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:53:03.799 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:08.076 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:09.446 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED
+2023-12-19 13:53:10.057 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 13:53:12.798 [main] INFO  listeners.TestListener - STARTING TEST: loginTestDataProviderNegative
+2023-12-19 13:53:14.928 [main] INFO  listeners.TestListener - TEST METHOD: loginTestDataProviderNegative PASSED

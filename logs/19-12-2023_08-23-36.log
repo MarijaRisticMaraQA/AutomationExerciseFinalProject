@@ -1,0 +1,2 @@
+2023-12-19 08:23:41.806 [main] INFO  core.Environment - Opening browser: chrome navigating to https://automationexercise.com/
+2023-12-19 08:23:44.906 [main] INFO  listeners.TestListener - STARTING TEST: sendContactFormTest
